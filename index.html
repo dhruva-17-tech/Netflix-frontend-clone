@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" class="logo">
+        <div class="nav-buttons">
+            <div class="language-box">
+                <span class="lang-icon">文A</span>
+                <select class="language">
+                    <option>English</option>
+                    <option>हिन्दी</option>
+                </select>
+            </div>
+            <a href="signin.html" class="sign-in">Sign In</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <h1>
+                Unlimited movies,<br>
+                TV shows and more
+            </h1>
+
+            <h2>Watch anywhere. Cancel anytime.</h2>
+
+            <p>
+                Ready to watch? Enter your email to create or restart your membership.
+            </p>
+
+            <div class="email-box">
+                <input type="email" placeholder="Email address" class="netflix-input">
+                <button class="netflix-btn">
+                    Get Started <span class="arrow">›</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="trending">
+        <h2>Trending Now</h2>
+
+        <div class="slider-wrapper">
+            <button class="slider-btn left" onclick="scrollLeft()">&#10094;</button>
+
+            <div class="slider" id="slider">
+                <div class="trend-card">
+                    <span class="rank">1</span>
+                    <img src="dhurandhar.jpg" alt="dhurandhar">
+                </div>
+
+                <div class="trend-card">
+                    <span class="rank">2</span>
+                    <img src="tere-ishq-mein.jpg" alt="tere-ishq-mein">
+                </div>
+
+                <div class="trend-card">
+                    <span class="rank">3</span>
+                    <img src="taskaree.jpg" alt="taskaree">
+                </div>
+
+                <div class="trend-card">
+                    <span class="rank">4</span>
+                    <img src="kapil-sharma.jpg" alt="kapil-sharma">
+                </div>
+
+                <div class="trend-card">
+                    <span class="rank">5</span>
+                    <img src="royal-rumble.jpg" alt="royal-rumble">
+                </div>
+
+                <div class="trend-card">
+                    <span class="rank">6</span>
+                    <img src="stranger-things.jpg" alt="stranger-things">
+                </div>
+
+                <div class="trend-card">
+                    <span class="rank">7</span>
+                    <img src="kis-kis-ko-pyaar-2.webp" alt="kis-kis-ko-pyaar-2">
+                </div>
+
+                <div class="trend-card">
+                    <span class="rank">8</span>
+                    <img src="de-de-pyaar-de-2.jpg" alt="de-de-pyaar-de-2">
+                </div>
+
+                <div class="trend-card">
+                    <span class="rank">9</span>
+                    <img src="akhanda.jpg" alt="akhanda">
+                </div>
+
+                <div class="trend-card">
+                    <span class="rank">10</span>
+                    <img src="haq.jpg" alt="haq">
+                </div>
+            </div>
+
+            <button class="slider-btn right" onclick="scrollRight()">&#10095;</button>
+        </div>
+    </section>
+
+        <section class="reasons">
+            <h2>More reasons to join</h2>
+
+            <div class="reason-cards">
+                <div class="card">
+                    <h3>Enjoy on your TV</h3>
+                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Download your shows to watch offline</h3>
+                    <p>Save your favourites easily and always have something to watch.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Watch everywhere</h3>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Create profiles for kids</h3>
+                    <p>Send kids on adventures with their favourite characters in a space made just for them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+    <section class="faq">
+        <h1>Frequently Asked Questions</h1>
+
+        <details class="faq-item">
+            <summary>What is Netflix?</summary>
+            <p>Netflix is a streaming service that offers a wide variety of TV shows, movies, anime, documentaries, and more.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>How much does Netflix cost?</summary>
+            <p>Watch Netflix on your smartphone, tablet, smart TV, laptop, or streaming device.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>Where can I watch?</summary>
+            <p>Watch anywhere, anytime, on an unlimited number of devices.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>How do I cancel?</summary>
+            <p>Netflix is flexible. There are no annoying contracts and no commitments.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>What can I watch on Netflix?</summary>
+            <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, and Netflix originals.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>Is Netflix good for kids?</summary>
+            <p>Netflix Kids experience includes parental controls and family-friendly content.</p>
+        </details>
+        </section>
+
+    <div class="divider"></div>
+
+    <footer>
+        <p>Questions? Call 000-800-919-1694</p>
+        <div class="footer-grid">
+            <a href="#">FAQ</a>
+            <a href="#">Help Centre</a>
+            <a href="#">Account</a>
+            <a href="#">Media Centre</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Jobs</a>
+            <a href="#">Ways to Watch</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookie Preferences</a>
+            <a href="#">Corporate Information</a>
+        </div>
+        <p class="country">Netflix India</p>
+    </footer>
+
+</body>
+</html>
